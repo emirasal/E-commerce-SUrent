@@ -1,0 +1,131 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.footer{
+    /* for making footer sticking to the bottom*/
+    /**/
+    /****/
+    margin-top: 50%;
+}
+
+.productsContainer {
+    background-image: linear-gradient(rgba(0,8,51,0,9),rgba(0,8,51,0,9));
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar{
+    width: 100%;
+    max-width: 480px;
+    max-height: 80px;
+    background: #ECECEC;
+    display: flex;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+
+.search-bar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: linear-gradient(90deg, rgb(233, 237, 201) 0%, #f1dec9 100%);
+}
+
+::placeholder{
+    color: linear-gradient(90deg, rgb(233, 237, 201) 0%, #f1dec9 100%);
+ 
+}
+
+.search-bar button img{
+    width: 25px;
+}
+.search-bar button {
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(90deg, rgb(233, 237, 201) 0%, #f1dec9 100%);
+    cursor: pointer;
+}
+.search-bar button:hover{
+    background: aliceblue;
+}
+
+
+
+.sort{
+    width: 100%;
+    max-width: 260px;
+    max-height: 80px;
+    background: #ECECEC;
+    display: flex;
+    border-radius: 60px;
+    padding: 10px 20px;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.sorttext{
+    margin-top: 7px;
+    padding: 8px;
+    font-size: 17px;
+}
+
+.sort-option{
+    padding: 2px;
+}
+
+.sort-bar button {
+    background: linear-gradient(90deg, rgb(233, 237, 201) 0%, #f1dec9 100%);
+    border: none;
+    margin-left: 8px;
+
+}
+.sort-bar button:hover{
+    background: aliceblue
+}
+
+.sort-bar button img{
+    width: 28px;
+    padding-bottom: 2px;
+}
+
+
+.category-selection{
+    width: 100%;
+    max-width: 320px;
+    max-height: 80px;
+    background: #ECECEC;
+    display: flex;
+    border-radius: 60px;
+    padding: 10px 20px;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.category-dropdown {
+    width: 200px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    outline: none;
+  }
+  
+  .category-dropdown option {
+    padding: 8px;
+  }
+  
+
+  

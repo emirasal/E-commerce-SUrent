@@ -1,0 +1,23 @@
+.containerDiscount {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.checkbox-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.textfield {
+  margin-bottom: 20px;
+}
+
+.submit-button {
+  display: block;
+  margin: 20px auto;
+}

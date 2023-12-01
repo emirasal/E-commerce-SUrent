@@ -1,0 +1,77 @@
+*,
+*:focus{outline: none}
+
+.form{
+  width: 27.5rem;
+  height: 25rem;
+  margin: 0 auto;
+  margin-top: 150px;
+  font-family: sans-serif;
+  background-color: rgb(233, 237, 201);
+  border-radius: 16px;
+}
+.form-item{
+  position: relative;
+  margin-bottom: 15px
+}
+.form-item input{
+  display: block;
+  width: 400px;
+  height: 40px;
+  background: transparent;
+  border: solid 2px black;
+  border-radius: 0.5em;
+  transition: all .3s ease;
+  padding: 0 15px;
+  margin-top: 10px;
+}
+.form-item input:focus{
+  border-color: black
+}
+.form-item label{
+  position: absolute;
+  cursor: text;
+  z-index: 2;
+  top: 13px;
+  left: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  background: transparent;
+  padding: 0 10px;
+  color: black;
+  transition: all .3s ease
+}
+.form-item input:focus + label,
+.form-item input:valid + label{
+  font-size: 11px;
+  top: -5px;
+  background: rgb(233, 237, 201);
+}
+.form-item input:focus + label{
+  color: black;
+}
+
+
+.adminNbtn {
+    border-radius: 4px;
+    height: 44px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+    padding: 0 30px;
+    letter-spacing: 1px;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    align-items: center;
+    background-color: rgb(233, 237, 201);
+    color: #000000;
+}
+
+.adminNbtn:hover {
+    background-color: #fff;
+    color: #000000;
+    box-shadow: 0 8px 24px 0 rgba(16, 39, 112, .2);
+}
